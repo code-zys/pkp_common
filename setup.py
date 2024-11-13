@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ppta_common',
-    version='0.1.85',
+    name='pkp_common',
+    version='0.0.1',
     packages=find_packages(),
     install_requires=[
         'mongoengine',
@@ -16,7 +16,7 @@ setup(
         'imap_tools',
         'requests'
     ],
-    description='Prepa Compta common module',
-    author='Peter',
-    url='https://github.com/code-zys/ppta_common',
+    description='Pocker Planning  common module',
+    author='Cedric',
+    url='https://github.com/code-zys/pkp_common',
 )
